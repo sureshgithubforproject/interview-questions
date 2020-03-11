@@ -2,26 +2,29 @@
 Git	SVN
 
 Git is a Decentralized Version Control tool
-	
-
 SVN is a  Centralized Version Control tool
-
 It belongs to the 3rd generation of Version Control tools
-	
-
 It belongs to the 2nd generation of Version Control tools
-
 Clients can clone entire repositories on their local systems
-	
-
 Version history is stored on a server-side repository
-
 Commits are possible even if offline
-	
-
 Only online commits are allowed
-
 Push/pull operations are faster
-	
-
 Push/pull operations are slower
+
+2. What is Git? 
+Git is a Distributed Version Control system(DVCS). 
+It lets you track changes made to a file and 
+allows you to revert back to any particular change that you wish.
+It is a distributed architecture that provides many advantages over 
+other Version Control Systems (VCS) like SVN. One of the major advantages 
+is that it does not rely on a central server to store 
+all the versions of a project’s files.
+Instead, every developer “clones” a copy of a repository 
+I have shown in the diagram with “Local repository” 
+and has the full history of the project available on his hard drive. 
+So when there is a server outage all you need to do to recover 
+is one of your teammate’s local Git repository.
+
+
+
